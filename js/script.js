@@ -32,3 +32,9 @@
         $('#myNumber').text(myNumber);
       }
     )
+
+
+	
+$('.chartme-btn-main').click(function(){
+    $(this).toggleClass('active');
+});
