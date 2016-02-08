@@ -1,33 +1,216 @@
- p {
-      font-family: sans-serif;
-    }
+a:link {
+	text-decoration: none;
+}
 
-    #myFirstDiv {
-      background-color: steelblue;
-      color: white;
-      margin: 10px;
-      padding: 15px;
-      font-family: sans-serif;
-      border-radius: 10px;
-    }
+#participation a:link {
+	color: #FF0000;
+	}
 
-    img {
-      height: 30px;
-      width: 30px;
-    }
+#requirements a:link {
+	color: #009999;
+	}
 
-    li a {
-      color: yellow;
-    }
+a:visited {
+	text-decoration: none;
+	color: #666666;
+	}
+a:hover {
+	text-decoration: underline;
+}
+a:active {
+	text-decoration: none;
+}
 
-    .notTestClass {
-      margin-left: 20px;
-    }
+body { 
+	background-color: #333333;
+	margin: 0px; 
+	margin-left:122px;
+	font-family: Tahoma, Arial, Verdana, sans-serif;
+	font-size: 11px;
+	line-height: 15px;
+	color: #999999;
+	font-weight: bold;
+	}
+	
+#container	{
+	position:absolute;
+	margin-top:0px;
+	width: 658px;
+	background-image: url("header.jpg");
+	background-repeat:	no-repeat;
+	background-position:top;
+	background-color: #020106;
+	}
 
-    .hasBackgroundImage {
-      height: 50px;
-      width: 50px;
-      background-color: steelblue;
-      background-image: url('https://yt3.ggpht.com/-RZYi5isxH_M/AAAAAAAAAAI/AAAAAAAAAAA/rmWpoe2qZzI/s900-c-k-no/photo.jpg');
-      background-size: 100%;
-    }
+#intro	{
+	margin-top: 0px;
+	text-align: right;
+	color: #FFFFFF;
+	}
+	#pageHeader {
+	height:250px;
+	padding-right: 25px;
+	}
+#pageHeader h1 , #pageHeader h2 , #pageHeader span	{
+	height: 5px;
+	}
+		
+#supportingText, #linkList {
+	padding: 25px;
+	width: 420px;
+	}
+	
+#intro h3 span, #supportingText h3 span	{
+		}
+
+#intro h3	{
+			width: 313px;
+			height: 75px;
+			}
+
+p.p1	{
+		color: #CCCCCC;
+		}
+		
+p.p1, p.p2, p.p3	{
+		margin: 0px;
+		padding: 0px;
+		margin-top: 8px;
+		}
+		
+#explanation h3	{
+			width: 313px;
+			height: 10px;
+			margin: 0px;
+			padding: 25px 0 0 0;
+			}
+	
+#participation h3	{
+			width: 313px;
+			height: 10px;
+			}
+			
+#benefits h3	{
+			width: 313px;
+			height: 10px;
+			}
+			
+#linkList	{
+	position: absolute;
+	top: 300px;
+	left: 450px;
+	width: 100px;
+	height: auto;
+	z-index: 1;
+		}
+		
+#linkList2	{
+		margin-top: 0.px;
+	margin-left: 0px;
+	margin-top: 0px;
+				}
+
+#lselect	{
+		width: 100px;
+		height: auto;
+		color:#CCCCCC;
+			}
+
+#lselect h3 span, #larchives h3 span, #lresources h3 span	{
+		}
+		
+#lselect h3, #larchives h3, #lresources h3	{
+		width: 229px;
+		height: 50px;
+		}
+		
+#lselect h3	{
+			width: 229px;
+			height: 40px;
+			top: 0px;
+			margin: 0px;
+			padding: 0px;
+			}
+		
+#lselect ul, #larchives ul, #lresources ul	{
+	margin-top: 5px;
+		}
+
+#lselect li {
+	border-bottom: 1px dotted #FFFFFF;
+	width: 100px;
+	margin-bottom: 8px;
+}
+
+#lselect .c {
+	text-transform: capitalize;
+}
+
+#lselect a {
+	display: block;
+	font-weight: bold;
+	color:#FFFFFF;
+}
+
+#lselect a:hover {
+	display: block;
+	font-weight: bold;
+	color: #B99541;
+	background-color:#FFFFFF;
+}
+
+#lselect a.c {
+	color: #FFCC00;
+	display: inline;
+	font-weight: bold;
+}
+
+#lselect a.c:hover {
+	color: #FFCC00;
+	display: inline;
+	font-weight: bold;
+	background-color:#3399FF;
+}
+
+
+#larchives a, #lresources a {
+	font-weight: bold;
+	color:#FFFFFF;
+}
+
+#larchives li, #lresources li {
+	width: 100px;
+	list-style-position: outside;
+}
+
+#lresources li {
+}
+
+#larchives li {
+}
+
+#larchives	{
+		width: 100px;
+		height: 169px;
+					}
+
+#larchives h3	{
+			width: auto;
+			height: 40px;
+			top: 0px;
+			margin: 0px;
+			padding: 0px;
+			}
+			
+#footer		{
+			background-repeat:no-repeat;
+			width: 470px;
+			height: 15px;
+			text-align:center;
+			margin-top:30px;
+			padding: 10px;
+			}
+
+#footer	a	{
+			color: #FF9900;
+				}
