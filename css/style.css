@@ -36,7 +36,7 @@ body {
 	margin-top:5px;
 	width: 658px;
 	height: 800px;
-	background-image: url("../1185642_1404683083092096_741412155_n.jpg");
+	background-image: url("../data-01.jpg");
 	background-repeat:	no-repeat;
 	background-position:top;
 	background-color: #ff751a;
@@ -51,11 +51,11 @@ body {
 	background-repeat:	no-repeat;
 	background-position:top;
 	background-position: 50% 2%;
-	background-color: #FFFFFF;
+	background-color: #3498DB;
 	background-size: 480px 280px
 	}
 	
-	#intro1	{
+#intro1	{
 	margin-top: 30px;
 	text-align: right;
 	color: #FFFFFF;
@@ -293,6 +293,7 @@ ul#lst li a:hover {
 #footer	a	{
 			color: #FF0000;
 				}
+
 
 .smGlobalBtn{ /* global button class */
     display: inline-block;

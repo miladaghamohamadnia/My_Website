@@ -15,17 +15,26 @@
 
 </div>
 
-<div id="button">
+<div style="display:block"><img  id="largeimg" data-nr="1" src="../data-01.jpg"></div>
+<img data-nr="1" class="clickable" style='cursor:pointer;' src="../data-02.jpg">
+<img data-nr="2" class="clickable" style='cursor:pointer;' src="resources/images/thumbs/02.jpg">
 
-  <p>
-  This is also a paragraph
-  </p>
 
-  <button id='changepic'>
-  Show an Alert
-  </button>
-<br/>
-</div>
+<script type = "text/javascript">       
+  $(document).ready(function(){
+    $(".clickable").each(function({
+      this.click(function(){
+         $("#largeimg").attr("src",this.attr("src")).attr("data-nr",this.attr("data-nr"));
+      }
+    }
+  });
+  function nextpic() {
+    newid = parseInt($("#largeimg").attr("data-nr"))+1;
+    newsrc = $(".clickable[data-nr="+newid+"]").attr("src");
+    $("#largeimg").attr("src",newsrc).attr("data-nr",newid);
+  }
+</script>
+
 
 	<script src="../js/jquery.js"></script>
 	<script src="../js/jquery.jsonp.js"></script>

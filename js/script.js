@@ -33,7 +33,8 @@
       }
     )
 
-
+  <button type="button" onclick="showDiv(currentImage - 1)">Previous</button>
+  <button type="button" onclick="showDiv(currentImage + 1)">Next</button>
 	
 $('.chartme-btn-main').click(function(){
     $(this).toggleClass('active');
