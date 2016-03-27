@@ -16,19 +16,9 @@
       $('#myFirstDiv').css('background-color','red')
     });
 
-    var myNumber = 1;
 
-    $('#addOne').click(
-      function() {
-        myNumber = myNumber + 1;    
-        $('#myNumber').text(myNumber);
-      }
-    )
+$('.chartme-btn-main').click(function(){
+    $(this).toggleClass('active');
+});
 
-    $('#subtractOne').click(
 
-      function() {
-        myNumber = myNumber - 1;    
-        $('#myNumber').text(myNumber);
-      }
-    )

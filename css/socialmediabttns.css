@@ -1,0 +1,16 @@
+/* facebook button class*/
+.facebookBtn{
+    background: #4060A5;
+}
+
+.facebookBtn:before{ /* use :before to add the relevant icons */
+    font-family: "FontAwesome";
+    font-weight: 5;
+    content: "\f09a"; /* add facebook icon */
+}
+
+.facebookBtn:hover{
+  font-family: "FontAwesome";
+    color: #4060A5;
+    background: #fff;
+}
