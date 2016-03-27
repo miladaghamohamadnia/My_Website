@@ -11,7 +11,7 @@
 			"file": "index.html",
 			"settings":
 			{
-				"buffer_size": 1260,
+				"buffer_size": 11775,
 				"line_ending": "Windows"
 			}
 		},
@@ -19,7 +19,7 @@
 			"file": "js/script.js",
 			"settings":
 			{
-				"buffer_size": 947,
+				"buffer_size": 950,
 				"line_ending": "Windows"
 			}
 		},
@@ -27,7 +27,7 @@
 			"file": "pages/about_me.html",
 			"settings":
 			{
-				"buffer_size": 2906,
+				"buffer_size": 6407,
 				"line_ending": "Windows"
 			}
 		},
@@ -35,7 +35,7 @@
 			"file": "pages/my_pictures.html",
 			"settings":
 			{
-				"buffer_size": 1254,
+				"buffer_size": 3330,
 				"line_ending": "Windows"
 			}
 		},
@@ -138,15 +138,15 @@
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 1260,
+						"buffer_size": 11775,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								637,
-								637
+								0,
+								0
 							]
 						],
 						"settings":
@@ -167,15 +167,15 @@
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 947,
+						"buffer_size": 950,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								740,
-								740
+								0,
+								0
 							]
 						],
 						"settings":
@@ -197,15 +197,15 @@
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 2906,
+						"buffer_size": 6407,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								272,
-								272
+								0,
+								0
 							]
 						],
 						"settings":
@@ -226,15 +226,15 @@
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 1254,
+						"buffer_size": 3330,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								877,
-								877
+								0,
+								0
 							]
 						],
 						"settings":
